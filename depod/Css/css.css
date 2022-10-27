@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    padding: 0 7rem;
+    
+
+}
+header .container  a img{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+header .container .header-all  {
+    padding:15px 0 ;
+    display: flex;
+    justify-content: space-between;
+  
+}
+header .container .header-all .logo  {
+    width: 64%;
+  text-align: center;
+}
+header .container .header-all .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+
+  
+}
+header .container .header-all .left a {
+   
+margin-left: 16px;  
+color: black;   
+  
+}
+header  .header-all nav {
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+width: 18%;}
